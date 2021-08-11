@@ -1,0 +1,142 @@
+body {
+  background-color: #bcffb9;
+}
+section {
+  background-color: aliceblue;
+  width: 450px;
+  height: 675px;
+  margin: auto;
+  border-radius: 0 25% 0 25%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.middle {
+  display: grid;
+  place-items: center;
+}
+
+#first_name,
+#last_name,
+#pass,
+#user,
+#mail,
+#mob ,
+#confirm{
+  display: block;
+  width: 97%;
+  border: none;
+  padding: 7px;
+  font-family: "Tajawal", sans-serif;
+}
+#pass{
+    font-family: "Tajawal", sans-serif;
+}
+.form {
+  font-family: "Varela Round", sans-serif;
+  font-size: small;
+}
+#condition {
+  font-family: "Tajawal", sans-serif;
+}
+
+input[type="text"] {
+  border: 2px solid #bcffb9;
+  border-radius: 4px;
+}
+span {
+    
+  color: #28ffbf;
+}
+.login{
+    text-decoration: none;
+    color: #28ffbf;
+        margin-left: 5px;
+}
+a:link {
+  text-decoration: none;
+  color:#28ffbf;
+}
+
+a:visited {
+  text-decoration: none;
+  
+}
+
+p {
+  font-family: "Tajawal", sans-serif;
+  font-size: smaller;
+}
+.footer {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+  margin-top: 15px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-google-plus {
+  background: rgb(221, 75, 57);
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.sign_up {
+  background: #bcffb9;
+  background-image: -webkit-linear-gradient(top, #bcffb9, #24f5b7);
+  background-image: -moz-linear-gradient(top, #bcffb9, #24f5b7);
+  background-image: -ms-linear-gradient(top, #bcffb9, #24f5b7);
+  background-image: -o-linear-gradient(top, #bcffb9, #24f5b7);
+  background-image: -webkit-gradient(to bottom, #bcffb9, #24f5b7);
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 10px;
+  border: solid #28ffbf 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+}
+
+p:before,
+p:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #000;
+  margin: auto;
+}
